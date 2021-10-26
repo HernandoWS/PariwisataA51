@@ -1,0 +1,101 @@
+li {
+    list-style: none;
+  }
+  
+header {
+    background-color: rgba(109, 207, 246, 0.9);
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top:0;
+    z-index:10;
+  }
+  
+  .header-logo {
+    float: left;
+    font-size: 36px;
+    padding: 20px 40px;
+  }
+  
+  .header-list li {
+    line-height:80px;
+    padding: 0px 30px;
+    color:white;
+    float: left;
+  }
+
+  .logo {
+    height: 70px;
+    margin-top: 5px;
+    margin-left: 5px;
+    float:left   
+  }
+  .txt-contents {
+    width:80%;
+    display: inline-block;
+    margin-top: 50px;
+    font-size: 15px;
+    color:#dadada;
+  }
+  .picture-icon p{
+    position:absolute;
+    top: 400 px;
+    width: 100%;
+    color: white;
+    font-size: 15pt;
+  }  
+  .picture-icon {
+    position:relative;
+  }
+  .picture {
+    float: left;
+    width: 25%  
+  }
+  .main-wrapper {
+    width: 100%;
+    margin:auto;
+    background-image: url(https://media.cntraveler.com/photos/59404f9157d01262a807f8c9/16:9/w_5087,h_2861,c_limit/GettyImages-175386102.jpg);
+    background-size: cover;
+    color: white;
+    font-size: 48pt;
+    font-family:Verdana;
+    text-align: center;
+}
+  .container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 20px 0;
+    margin: 0 15px 0 15px;
+}
+.clear {
+  clear: left;
+}
+.btn {
+  filter: brightness(75%);
+}
+.btn:hover {
+  filter: brightness(100%);
+  transition: all 0.5s;
+}
+.container-footer {
+  width: 100%;
+  background:#f1f1f1;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  width:100%;
+}
+
+
+.footer-right {
+   float:right;
+ }
